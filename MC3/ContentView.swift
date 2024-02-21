@@ -11,15 +11,18 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Image(systemName: "globe")
+                Image ("welcome")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("Hello, world!")
+                    .ignoresSafeArea()
+                
                 
                 NavigationLink {
                     ButtonsView()
                 } label: {
-                    Text("Buttons")
+                    Text("Start the Journey")
+                        .font(Font.custom("SF Pro", size: 37).weight(.semibold))
+                        .foregroundColor(.purple)
                 }
                 
             }
