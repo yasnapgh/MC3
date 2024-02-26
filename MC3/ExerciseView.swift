@@ -1,17 +1,8 @@
-//
-//  ExerciseView.swift
-//  MC3
-//
-//  Created by khadija Ait ElFqih on 19/02/24.
-//
-
 import SwiftUI
 
 struct ExerciseView: View {
     
     var color: Color
-    
-    
     
     var body: some View {
         ZStack {
@@ -23,6 +14,10 @@ struct ExerciseView: View {
     }
 }
 
-#Preview {
-    ExerciseView(color: .red)
+struct meditationView: View {
+    var body: some View {
+        ExerciseView(color: .red)
+    }
 }
+
+// Preview code is omitted for brevity
