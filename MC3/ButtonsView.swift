@@ -6,7 +6,7 @@ struct ButtonsView: View {
             Color(hex: "BCCBFD").ignoresSafeArea() // Background color
             VStack {
                 VStack {
-                    Text("Dig into the practice that works for you ")
+                    Text("the practice that works for you ")
                         .font(Font.custom("SF Pro", size: 37).weight(.semibold))
                         .fontWeight(.bold)
                         .foregroundColor(.black )
@@ -21,17 +21,17 @@ struct ButtonsView: View {
                 HStack {
                     Group {
                         NavigationLink {
-                            MeditationView()
+                            MeditationColorInCircleView()
                         } label: {
                             ButtonLikeView("Meditation", icon: "figure.yoga").font(.title)
                         }
                         NavigationLink {
-                            RelaxView()
+                            RelaxColorInCircleView()
                         } label: {
                             ButtonLikeView("Relax", icon: "bed.double")
                         }
                         NavigationLink {
-                            FocusView()
+                            FocusColorInCircleView()
                         } label: {
                             ButtonLikeView("Focus", icon: "circle.dotted.circle")
                         }

@@ -20,6 +20,7 @@
 		4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81722B83560800CFE55A /* MeditationView.swift */; };
 		4C7E81752B83561A00CFE55A /* RelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81742B83561A00CFE55A /* RelaxView.swift */; };
 		4C7E81772B83562900CFE55A /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81762B83562900CFE55A /* FocusView.swift */; };
+		D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		4C7E81722B83560800CFE55A /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
 		4C7E81742B83561A00CFE55A /* RelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxView.swift; sourceTree = "<group>"; };
 		4C7E81762B83562900CFE55A /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingColorInCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		4C7E81362B83539500CFE55A = {
 			isa = PBXGroup;
 			children = (
+				D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */,
 				4C7E81412B83539500CFE55A /* MC3 */,
 				4C7E81522B83539600CFE55A /* MC3Tests */,
 				4C7E815C2B83539600CFE55A /* MC3UITests */,
@@ -113,8 +116,8 @@
 				4C7E81482B83539600CFE55A /* Preview Content */,
 				4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */,
 				4C7E81702B8355AF00CFE55A /* ExerciseView.swift */,
-				4C7E81722B83560800CFE55A /* MeditationView.swift */,
 				4C7E81742B83561A00CFE55A /* RelaxView.swift */,
+				4C7E81722B83560800CFE55A /* MeditationView.swift */,
 				4C7E81762B83562900CFE55A /* FocusView.swift */,
 			);
 			path = MC3;
@@ -281,6 +284,7 @@
 				4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */,
 				4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */,
 				4C7E81772B83562900CFE55A /* FocusView.swift in Sources */,
+				D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */,
 				4C7E81752B83561A00CFE55A /* RelaxView.swift in Sources */,
 				4C7E81712B8355AF00CFE55A /* ExerciseView.swift in Sources */,
 			);
