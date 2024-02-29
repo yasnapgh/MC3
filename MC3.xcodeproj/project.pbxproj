@@ -16,9 +16,9 @@
 		4C7E816D2B8353F700CFE55A /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E816C2B8353F700CFE55A /* ButtonsView.swift */; };
 		4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */; };
 		4C7E81712B8355AF00CFE55A /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81702B8355AF00CFE55A /* ExerciseView.swift */; };
-		4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81722B83560800CFE55A /* MeditationView.swift */; };
-		4C7E81752B83561A00CFE55A /* RelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81742B83561A00CFE55A /* RelaxView.swift */; };
-		4C7E81772B83562900CFE55A /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81762B83562900CFE55A /* FocusView.swift */; };
+		4C7E81732B83560800CFE55A /* MeditationColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81722B83560800CFE55A /* MeditationColorInCircleView.swift */; };
+		4C7E81752B83561A00CFE55A /* RelaxColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */; };
+		4C7E81772B83562900CFE55A /* FocusColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */; };
 		D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +52,9 @@
 		4C7E816C2B8353F700CFE55A /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLikeView.swift; sourceTree = "<group>"; };
 		4C7E81702B8355AF00CFE55A /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
-		4C7E81722B83560800CFE55A /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
-		4C7E81742B83561A00CFE55A /* RelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxView.swift; sourceTree = "<group>"; };
-		4C7E81762B83562900CFE55A /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		4C7E81722B83560800CFE55A /* MeditationColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationColorInCircleView.swift; sourceTree = "<group>"; };
+		4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxColorInCircleView.swift; sourceTree = "<group>"; };
+		4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusColorInCircleView.swift; sourceTree = "<group>"; };
 		D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingColorInCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,9 +113,9 @@
 				4C7E81482B83539600CFE55A /* Preview Content */,
 				4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */,
 				4C7E81702B8355AF00CFE55A /* ExerciseView.swift */,
-				4C7E81742B83561A00CFE55A /* RelaxView.swift */,
-				4C7E81722B83560800CFE55A /* MeditationView.swift */,
-				4C7E81762B83562900CFE55A /* FocusView.swift */,
+				4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */,
+				4C7E81722B83560800CFE55A /* MeditationColorInCircleView.swift */,
+				4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */,
 			);
 			path = MC3;
 			sourceTree = "<group>";
@@ -278,10 +278,10 @@
 				4C7E816D2B8353F700CFE55A /* ButtonsView.swift in Sources */,
 				4C7E81432B83539500CFE55A /* MC3App.swift in Sources */,
 				4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */,
-				4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */,
-				4C7E81772B83562900CFE55A /* FocusView.swift in Sources */,
+				4C7E81732B83560800CFE55A /* MeditationColorInCircleView.swift in Sources */,
+				4C7E81772B83562900CFE55A /* FocusColorInCircleView.swift in Sources */,
 				D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */,
-				4C7E81752B83561A00CFE55A /* RelaxView.swift in Sources */,
+				4C7E81752B83561A00CFE55A /* RelaxColorInCircleView.swift in Sources */,
 				4C7E81712B8355AF00CFE55A /* ExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

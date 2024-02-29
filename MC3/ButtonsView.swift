@@ -9,10 +9,9 @@ struct ButtonsView: View {
             HStack {
                 Group {
                     
-                    NavigationLink {
-                        MeditationColorInCircleView()
-                    } label: {
-                        //  ButtonLikeView("Meditation")
+                    NavigationLink{ MeditationColorInCircleView()
+                    }label: {
+                        
                         ZStack{
                             Rectangle()
                                 .foregroundColor(.black)
@@ -47,8 +46,8 @@ struct ButtonsView: View {
                         
                         .padding(.horizontal,45)
 
-                        NavigationLink {
-                            FocusColorInCircleView()
+                    NavigationLink{
+                        FocusColorInCircleView()
                         } label: {
                              //ButtonLikeView("Focus")
                             ZStack{
@@ -59,7 +58,7 @@ struct ButtonsView: View {
                                 Text (" Focus ")
                                     .foregroundColor(.white)
                                     .font(.largeTitle)
-                                
+                                    .bold()
                             }
                             
                         }

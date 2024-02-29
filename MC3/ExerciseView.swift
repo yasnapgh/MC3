@@ -14,10 +14,5 @@ struct ExerciseView: View {
     }
 }
 
-struct meditationView: View {
-    var body: some View {
-        ExerciseView(color: .red)
-    }
-}
 
 // Preview code is omitted for brevity
