@@ -3,59 +3,77 @@ import SwiftUI
 struct ButtonsView: View {
     var body: some View {
         ZStack {
-            Color(hex: "BCCBFD").ignoresSafeArea() // Background color
-            VStack {
-                VStack {
-                    Text("the practice that works for you ")
-                        .font(Font.custom("SF Pro", size: 37).weight(.semibold))
-                        .fontWeight(.bold)
-                        .foregroundColor(.black )
-                        .padding()
-                
+            Color(.white) // Background color
+            
+            
+            HStack {
+                Group {
                     
-                    Text("")
-                        .font(Font.custom("SF Pro", size: 37).weight(.bold))
-                        .padding()
-                }
-           
-                HStack {
-                    Group {
-                        NavigationLink {
-                            MeditationColorInCircleView()
-                        } label: {
-                            ButtonLikeView("Meditation", icon: "figure.yoga").font(.title)
+                    NavigationLink {
+                        MeditationColorInCircleView()
+                    } label: {
+                        //  ButtonLikeView("Meditation")
+                        ZStack{
+                            Rectangle()
+                                .foregroundColor(.black)
+                                .frame(width:240 ,height: 65)
+                                .cornerRadius(50)
+                            Text (" Meditation ")
+                                .foregroundColor(.white)
+                                .font(.largeTitle)
+                                .bold()
+                            
                         }
+                    }
+                    .padding(.leading, 10.0)
+                    
+                    
                         NavigationLink {
                             RelaxColorInCircleView()
                         } label: {
-                            ButtonLikeView("Relax", icon: "bed.double")
+                           // ButtonLikeView("Relax")
+                            ZStack{
+                                Rectangle()
+                                    .foregroundColor(.black)
+                                    .frame(width:240 ,height: 65)
+                                    .cornerRadius(50)
+                                Text (" Relax ")
+                                    .foregroundColor(.white)
+                                    .font(.largeTitle)
+                                    .bold()
+                            }
+                            
                         }
+                        
+                        .padding(.horizontal,45)
+
                         NavigationLink {
                             FocusColorInCircleView()
                         } label: {
-                            ButtonLikeView("Focus", icon: "circle.dotted.circle")
+                             //ButtonLikeView("Focus")
+                            ZStack{
+                                Rectangle()
+                                    .foregroundColor(.black)
+                                    .frame(width:240 ,height: 65)
+                                    .cornerRadius(50)
+                                Text (" Focus ")
+                                    .foregroundColor(.white)
+                                    .font(.largeTitle)
+                                
+                            }
+                            
                         }
+                        .padding(.trailing, 10.0)
+
                     }
+                    
                 }
             }
-            .padding( )
+            
         }
     }
-}
 
-extension Color {
-    init(hex: String) {
-        let scanner = Scanner(string: hex)
-        _ = scanner.scanString("#")
-        var rgb: UInt64 = 0
-        scanner.scanHexInt64(&rgb)
-        self.init(
-            red: Double((rgb & 0xFF0000) >> 16) / 255.0,
-            green: Double((rgb & 0x00FF00) >> 8) / 255.0,
-            blue: Double(rgb & 0x0000FF) / 255.0
-        )
-    }
-}
+
 
 #Preview {
     ButtonsView()

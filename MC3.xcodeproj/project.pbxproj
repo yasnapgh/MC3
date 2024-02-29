@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C7E81432B83539500CFE55A /* MC3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81422B83539500CFE55A /* MC3App.swift */; };
-		4C7E81452B83539500CFE55A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81442B83539500CFE55A /* ContentView.swift */; };
 		4C7E81472B83539600CFE55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E81462B83539600CFE55A /* Assets.xcassets */; };
 		4C7E814A2B83539600CFE55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E81492B83539600CFE55A /* Preview Assets.xcassets */; };
 		4C7E81542B83539600CFE55A /* MC3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81532B83539600CFE55A /* MC3Tests.swift */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		4C7E813F2B83539500CFE55A /* MC3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7E81422B83539500CFE55A /* MC3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3App.swift; sourceTree = "<group>"; };
-		4C7E81442B83539500CFE55A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C7E81462B83539600CFE55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7E81492B83539600CFE55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C7E814F2B83539600CFE55A /* MC3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MC3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				4C7E81422B83539500CFE55A /* MC3App.swift */,
-				4C7E81442B83539500CFE55A /* ContentView.swift */,
 				4C7E816C2B8353F700CFE55A /* ButtonsView.swift */,
 				4C7E81462B83539600CFE55A /* Assets.xcassets */,
 				4C7E81482B83539600CFE55A /* Preview Content */,
@@ -279,7 +276,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C7E816D2B8353F700CFE55A /* ButtonsView.swift in Sources */,
-				4C7E81452B83539500CFE55A /* ContentView.swift in Sources */,
 				4C7E81432B83539500CFE55A /* MC3App.swift in Sources */,
 				4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */,
 				4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */,

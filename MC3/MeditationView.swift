@@ -3,9 +3,9 @@ import SwiftUI
 struct MeditationColorInCircleView: View {
     
     @State private var colors: [Color] = [
-        Color(red: 252/255, green: 191/255, blue: 64/255), // Yellow
-        Color(red: 250/255, green: 163/255, blue: 7/255), // Orange
-        Color(red: 244/255, green: 140/255, blue: 6/255), // Dark orange
+        Color(red: 252/255, green: 191/255, blue: 64/255),
+        Color(red: 250/255, green: 163/255, blue: 7/255), 
+        Color(red: 244/255, green: 140/255, blue: 6/255),
         Color(red: 238/255, green: 116/255, blue: 5/255),
         Color(red: 232/255, green: 93/255,blue: 4/255),
         Color(red: 226/255, green: 72/255,blue: 3/255),
