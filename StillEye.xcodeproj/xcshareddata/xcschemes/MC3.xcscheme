@@ -17,7 +17,7 @@
                BlueprintIdentifier = "4C7E813E2B83539500CFE55A"
                BuildableName = "MC3.app"
                BlueprintName = "MC3"
-               ReferencedContainer = "container:MC3.xcodeproj">
+               ReferencedContainer = "container:StillEye.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -37,7 +37,7 @@
                BlueprintIdentifier = "4C7E814E2B83539600CFE55A"
                BuildableName = "MC3Tests.xctest"
                BlueprintName = "MC3Tests"
-               ReferencedContainer = "container:MC3.xcodeproj">
+               ReferencedContainer = "container:StillEye.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -48,7 +48,7 @@
                BlueprintIdentifier = "4C7E81582B83539600CFE55A"
                BuildableName = "MC3UITests.xctest"
                BlueprintName = "MC3UITests"
-               ReferencedContainer = "container:MC3.xcodeproj">
+               ReferencedContainer = "container:StillEye.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -70,7 +70,7 @@
             BlueprintIdentifier = "4C7E813E2B83539500CFE55A"
             BuildableName = "MC3.app"
             BlueprintName = "MC3"
-            ReferencedContainer = "container:MC3.xcodeproj">
+            ReferencedContainer = "container:StillEye.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "4C7E813E2B83539500CFE55A"
             BuildableName = "MC3.app"
             BlueprintName = "MC3"
-            ReferencedContainer = "container:MC3.xcodeproj">
+            ReferencedContainer = "container:StillEye.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

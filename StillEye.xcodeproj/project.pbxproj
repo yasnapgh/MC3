@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C7E81432B83539500CFE55A /* MC3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81422B83539500CFE55A /* MC3App.swift */; };
+		4C7E81432B83539500CFE55A /* StillEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81422B83539500CFE55A /* StillEye.swift */; };
 		4C7E81472B83539600CFE55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E81462B83539600CFE55A /* Assets.xcassets */; };
 		4C7E814A2B83539600CFE55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E81492B83539600CFE55A /* Preview Assets.xcassets */; };
 		4C7E81542B83539600CFE55A /* MC3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81532B83539600CFE55A /* MC3Tests.swift */; };
@@ -20,6 +20,9 @@
 		4C7E81752B83561A00CFE55A /* RelaxColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */; };
 		4C7E81772B83562900CFE55A /* FocusColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */; };
 		D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */; };
+		D67517412B91D3E600EB8216 /* DescMeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67517402B91D3E600EB8216 /* DescMeditationView.swift */; };
+		D67517432B91D43400EB8216 /* DescRelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67517422B91D43400EB8216 /* DescRelaxView.swift */; };
+		D67517452B91D44C00EB8216 /* DescFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67517442B91D44C00EB8216 /* DescFocusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		4C7E813F2B83539500CFE55A /* MC3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C7E81422B83539500CFE55A /* MC3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3App.swift; sourceTree = "<group>"; };
+		4C7E81422B83539500CFE55A /* StillEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillEye.swift; sourceTree = "<group>"; };
 		4C7E81462B83539600CFE55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7E81492B83539600CFE55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C7E814F2B83539600CFE55A /* MC3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MC3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +59,9 @@
 		4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxColorInCircleView.swift; sourceTree = "<group>"; };
 		4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusColorInCircleView.swift; sourceTree = "<group>"; };
 		D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingColorInCircleView.swift; sourceTree = "<group>"; };
+		D67517402B91D3E600EB8216 /* DescMeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescMeditationView.swift; sourceTree = "<group>"; };
+		D67517422B91D43400EB8216 /* DescRelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescRelaxView.swift; sourceTree = "<group>"; };
+		D67517442B91D44C00EB8216 /* DescFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescFocusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */,
-				4C7E81412B83539500CFE55A /* MC3 */,
+				4C7E81412B83539500CFE55A /* StillEye */,
 				4C7E81522B83539600CFE55A /* MC3Tests */,
 				4C7E815C2B83539600CFE55A /* MC3UITests */,
 				4C7E81402B83539500CFE55A /* Products */,
@@ -104,20 +110,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C7E81412B83539500CFE55A /* MC3 */ = {
+		4C7E81412B83539500CFE55A /* StillEye */ = {
 			isa = PBXGroup;
 			children = (
-				4C7E81422B83539500CFE55A /* MC3App.swift */,
+				4C7E81422B83539500CFE55A /* StillEye.swift */,
 				4C7E816C2B8353F700CFE55A /* ButtonsView.swift */,
 				4C7E81462B83539600CFE55A /* Assets.xcassets */,
 				4C7E81482B83539600CFE55A /* Preview Content */,
 				4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */,
+				D67517402B91D3E600EB8216 /* DescMeditationView.swift */,
+				D67517422B91D43400EB8216 /* DescRelaxView.swift */,
+				D67517442B91D44C00EB8216 /* DescFocusView.swift */,
 				4C7E81702B8355AF00CFE55A /* ExerciseView.swift */,
 				4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */,
 				4C7E81722B83560800CFE55A /* MeditationColorInCircleView.swift */,
 				4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */,
 			);
-			path = MC3;
+			path = StillEye;
 			sourceTree = "<group>";
 		};
 		4C7E81482B83539600CFE55A /* Preview Content */ = {
@@ -224,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C7E813A2B83539500CFE55A /* Build configuration list for PBXProject "MC3" */;
+			buildConfigurationList = 4C7E813A2B83539500CFE55A /* Build configuration list for PBXProject "StillEye" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,10 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C7E816D2B8353F700CFE55A /* ButtonsView.swift in Sources */,
-				4C7E81432B83539500CFE55A /* MC3App.swift in Sources */,
+				4C7E81432B83539500CFE55A /* StillEye.swift in Sources */,
+				D67517412B91D3E600EB8216 /* DescMeditationView.swift in Sources */,
 				4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */,
+				D67517452B91D44C00EB8216 /* DescFocusView.swift in Sources */,
 				4C7E81732B83560800CFE55A /* MeditationColorInCircleView.swift in Sources */,
 				4C7E81772B83562900CFE55A /* FocusColorInCircleView.swift in Sources */,
+				D67517432B91D43400EB8216 /* DescRelaxView.swift in Sources */,
 				D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */,
 				4C7E81752B83561A00CFE55A /* RelaxColorInCircleView.swift in Sources */,
 				4C7E81712B8355AF00CFE55A /* ExerciseView.swift in Sources */,
@@ -444,8 +456,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MC3/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"StillEye/Preview Content\"";
 				DEVELOPMENT_TEAM = NH8228BJS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.StillEye.MC3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -474,8 +486,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MC3/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"StillEye/Preview Content\"";
 				DEVELOPMENT_TEAM = NH8228BJS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -489,7 +501,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.StillEye.MC3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -577,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C7E813A2B83539500CFE55A /* Build configuration list for PBXProject "MC3" */ = {
+		4C7E813A2B83539500CFE55A /* Build configuration list for PBXProject "StillEye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C7E81612B83539700CFE55A /* Debug */,

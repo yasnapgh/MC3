@@ -1,5 +1,7 @@
 import SwiftUI
 
+
+
 struct ExerciseView: View {
     
     var color: Color
@@ -9,6 +11,8 @@ struct ExerciseView: View {
             Circle()
                 .frame(width: 400,height: 400)
                 .foregroundColor(color)
+    
+                
         }
         .ignoresSafeArea()
     }

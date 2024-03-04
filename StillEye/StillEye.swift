@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MC3App: App {
+struct StillEye: App {
     var body: some Scene {
         WindowGroup {
             ButtonsView()

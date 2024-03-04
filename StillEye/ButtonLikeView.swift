@@ -17,6 +17,8 @@ struct ButtonLikeView: View {
     }
     
     var body: some View {
+      
+                
         VStack {
             Text(title)
                 .font(Font.custom("SF Pro", size: 37).weight(.bold))
