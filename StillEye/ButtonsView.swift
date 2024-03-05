@@ -12,13 +12,13 @@ struct ButtonsView: View {
                 
                 HStack {
                     Group {
-                        NavigationLink(destination: MeditationColorInCircleView()) {
+                        NavigationLink(destination: DescMeditationView()) {
                             ZStack {
                                 Rectangle()
                                     .foregroundColor(.black)
                                     .frame(width: 240, height: 65)
                                     .cornerRadius(50)
-                                Text("Meditation")
+                                Text(NSLocalizedString("Meditation", comment: ""))
                                     .foregroundColor(.white)
                                     .font(.largeTitle)
                                     .bold()
@@ -26,13 +26,13 @@ struct ButtonsView: View {
                         }
                         .padding(.leading, 10.0)
                         
-                        NavigationLink(destination: RelaxColorInCircleView()) {
+                        NavigationLink(destination: DescRelaxView()) {
                             ZStack {
                                 Rectangle()
                                     .foregroundColor(.black)
                                     .frame(width: 240, height: 65)
                                     .cornerRadius(50)
-                                Text("Relax")
+                                Text(NSLocalizedString("Relax", comment: ""))
                                     .foregroundColor(.white)
                                     .font(.largeTitle)
                                     .bold()
@@ -40,13 +40,13 @@ struct ButtonsView: View {
                         }
                         .padding(.horizontal, 45)
                         
-                        NavigationLink(destination: FocusColorInCircleView()) {
+                        NavigationLink(destination: DescFocusView()) {
                             ZStack {
                                 Rectangle()
                                     .foregroundColor(.black)
                                     .frame(width: 240, height: 65)
                                     .cornerRadius(50)
-                                Text("Focus")
+                                Text(NSLocalizedString("Focus", comment: ""))
                                     .foregroundColor(.white)
                                     .font(.largeTitle)
                                     .bold()

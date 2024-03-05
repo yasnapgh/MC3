@@ -20,9 +20,12 @@
 		4C7E81752B83561A00CFE55A /* RelaxColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */; };
 		4C7E81772B83562900CFE55A /* FocusColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */; };
 		D62C30A82B8DEC07008C4282 /* TestingColorInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */; };
+		D64920562B97303600959651 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64920582B97303600959651 /* Localizable.strings */; };
 		D67517412B91D3E600EB8216 /* DescMeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67517402B91D3E600EB8216 /* DescMeditationView.swift */; };
 		D67517432B91D43400EB8216 /* DescRelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67517422B91D43400EB8216 /* DescRelaxView.swift */; };
 		D67517452B91D44C00EB8216 /* DescFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67517442B91D44C00EB8216 /* DescFocusView.swift */; };
+		D6AA40442B9714E30099F386 /* TestingDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA40432B9714E30099F386 /* TestingDescView.swift */; };
+		D6CA1A8B2B973BA6003D888E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA1A8A2B973BA6003D888E /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +62,13 @@
 		4C7E81742B83561A00CFE55A /* RelaxColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxColorInCircleView.swift; sourceTree = "<group>"; };
 		4C7E81762B83562900CFE55A /* FocusColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusColorInCircleView.swift; sourceTree = "<group>"; };
 		D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingColorInCircleView.swift; sourceTree = "<group>"; };
+		D64920572B97303600959651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D64920592B97306100959651 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D67517402B91D3E600EB8216 /* DescMeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescMeditationView.swift; sourceTree = "<group>"; };
 		D67517422B91D43400EB8216 /* DescRelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescRelaxView.swift; sourceTree = "<group>"; };
 		D67517442B91D44C00EB8216 /* DescFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescFocusView.swift; sourceTree = "<group>"; };
+		D6AA40432B9714E30099F386 /* TestingDescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDescView.swift; sourceTree = "<group>"; };
+		D6CA1A8A2B973BA6003D888E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D62C30A72B8DEC07008C4282 /* TestingColorInCircleView.swift */,
+				D6AA40432B9714E30099F386 /* TestingDescView.swift */,
 				4C7E81412B83539500CFE55A /* StillEye */,
 				4C7E81522B83539600CFE55A /* MC3Tests */,
 				4C7E815C2B83539600CFE55A /* MC3UITests */,
@@ -114,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				4C7E81422B83539500CFE55A /* StillEye.swift */,
+				D6CA1A8A2B973BA6003D888E /* TimerView.swift */,
 				4C7E816C2B8353F700CFE55A /* ButtonsView.swift */,
+				D64920582B97303600959651 /* Localizable.strings */,
 				4C7E81462B83539600CFE55A /* Assets.xcassets */,
 				4C7E81482B83539600CFE55A /* Preview Content */,
 				4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */,
@@ -240,6 +250,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 4C7E81362B83539500CFE55A;
 			productRefGroup = 4C7E81402B83539500CFE55A /* Products */;
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C7E814A2B83539600CFE55A /* Preview Assets.xcassets in Resources */,
+				D64920562B97303600959651 /* Localizable.strings in Resources */,
 				4C7E81472B83539600CFE55A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +300,8 @@
 				4C7E81432B83539500CFE55A /* StillEye.swift in Sources */,
 				D67517412B91D3E600EB8216 /* DescMeditationView.swift in Sources */,
 				4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */,
+				D6AA40442B9714E30099F386 /* TestingDescView.swift in Sources */,
+				D6CA1A8B2B973BA6003D888E /* TimerView.swift in Sources */,
 				D67517452B91D44C00EB8216 /* DescFocusView.swift in Sources */,
 				4C7E81732B83560800CFE55A /* MeditationColorInCircleView.swift in Sources */,
 				4C7E81772B83562900CFE55A /* FocusColorInCircleView.swift in Sources */,
@@ -330,12 +344,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		D64920582B97303600959651 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64920572B97303600959651 /* en */,
+				D64920592B97306100959651 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		4C7E81612B83539700CFE55A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -399,6 +426,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -492,7 +520,7 @@
 				DEVELOPMENT_TEAM = NH8228BJS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_CFBundleDisplayName = StillEye;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
