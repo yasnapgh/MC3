@@ -26,12 +26,12 @@ struct DescFocusView: View {
                 
                 Spacer()
                 
-                Text("Set the timer and Stair at the Circle")
+                Text(NSLocalizedString("Set the timer and Stare at the Circle", comment: ""))
                     .font(Font .custom("SF PRO" , size : 50) )
                 
                 Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
                 
-                Text("Recommend : Do the practice for 10 minute in a dark place")
+                Text(NSLocalizedString("Recommended : Do the practice for 10 minute in a dark place", comment: ""))
                     .font(Font .custom("SF PRO" , size : 25) )
                     
                 
@@ -58,7 +58,7 @@ struct DescFocusView: View {
                         .frame(width: 150 ,height: 150)
                         .foregroundColor(.black)
                         .opacity(0.8)
-                    Text("Play")
+                    Text("Start")
                         .foregroundColor(.black)
                         .font(.title)
                 }
